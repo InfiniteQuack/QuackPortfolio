@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 #app {
-    background-color: #000814;
-    color: #FFC300;
+    background-color: #001D3D;
+    color: #FFD60A;
 }
 
 #Nav {
     background-color: #003566;
-    color: #FFC300;
+    color: #FFD60A;
 }
 
 

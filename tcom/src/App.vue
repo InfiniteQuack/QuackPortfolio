@@ -9,7 +9,7 @@ import Facts from "@/components/Facts.vue";
   <Nav></Nav>
   <div id="about" class="justify-center flex flex-col Roboto items-center pb-5">
     <br><br>
-    <img src="./assets/goosprof.png" alt="Profile Picture" width="273" height="281" class=""><br><br>
+    <img src="./assets/goosprof-Photoroom%20(2).png" alt="Profile Picture" width="273" height="281" class=""><br><br>
     <div class="w-2/6">
       What is up fellow computer enthusiasts, my name is Juno I am soon the be a graduate of
       Sask Polytech's Computer Systems Technology Program. So far, my favourite aspect of
@@ -28,11 +28,11 @@ import Facts from "@/components/Facts.vue";
   </div>
 
   <div id="skills" class="items-center justify-center flex pb-5">
-    <h1 class="text-4xl Roboto">My Skills</h1>
+    <h1 class="text-4xl Roboto pb-2">My Skills</h1>
   </div>
 
   <div id="projects" class="items-center justify-center flex flex-col pb-5">
-    <h1 class="text-4xl Roboto">Projects / Certificates</h1>
+    <h1 class="text-4xl Roboto pb-2">Projects / Certificates</h1>
 
     <div class="grid grid-cols-3 gap-4">
       <div class="...">01</div>
@@ -44,8 +44,11 @@ import Facts from "@/components/Facts.vue";
       <div class="col-span-2 ...">07</div>
     </div>
   </div>
-  <div id="contact">
-
+  <div id="contact" class="items-center justify-center flex flex-col pb-5 Roboto">
+    <h1 class="text-4xl Roboto pb-2">Contact Information</h1>
+    <p>Email: <a href="mailto:junomayes@gmail.com">junomayes@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/juno-mayes-339642354/">Juno Skutelnik</a></p>
+    <p>GitHub: <a href="https://github.com/InfiniteQuack">InfiniteQuack</a></p>
   </div>
   <Facts></Facts>
 

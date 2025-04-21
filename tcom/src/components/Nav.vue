@@ -20,7 +20,7 @@
                     :key="item.name"
                     :href="item.href"
                     class="font-robotoMono"
-                    :class="[item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'rounded-md px-3 py-2 text-sm font-medium']"
+                    :class="['text-yellow-400 hover:bg-sky-900 hover:text-yellow-400', 'rounded-md px-3 py-2 text-sm font-medium']"
                     :aria-current="item.current ? 'page' : undefined">
                   {{ item.name }}
                 </a>
@@ -44,8 +44,8 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 
 const navigation = [
-  { name: 'About', href: '#about', current: true },
-  { name: 'Skills / Experience', href: '#skills', current: false },
+  { name: 'About', href: '#about', current: false },
+  { name: 'Skills / Certificates', href: '#skills', current: false },
   { name: 'Projects / Accomplishments', href: '#projects', current: false },
   { name: 'Contact Info', href: '#contact', current: false },
 ]

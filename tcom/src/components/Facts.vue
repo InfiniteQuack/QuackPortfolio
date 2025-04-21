@@ -12,7 +12,14 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 
-const words = ["Hello, World! this is a really liong sdfljkasdkdf sadjfas dfsa df sadf sdf sa df asdf sa df asdf as df as df asdf as df asdf", "Welcome to my website!", "This is a typewriter effect."];
+const words = ["My dogs name is Jack, he's a corgi mix!", "I did an entire presentation on the Untitled Goose Game in high school. I got 100%",
+  "When I slice cheese for a snack, my dog waits for me to offer him the rinds, if I don't, he starts rebelling.", "My favourite job so far has been working in a local cheese shop",
+  "Cheese made in caves tends to develop richer and more complex flavours through a combination of factors like temperature, humidity and bacteria in the cave."
+  ,"More than half of these facts are going to be about cheese",
+  "A cyber attack occurs every 39 seconds.",
+  "Cheese contains casein, which when digested, produces casomorphins, similar to opioids, that can bind to dopamine receptors. Meaning, cheese makes you happy!",
+  "There are cheeses called triple cream cheese which has extra cream added to the milk, there's also triple milk cheeses that contain milk from three different animals (usually cow, goat and sheep!)",
+  "There are currently over 1,300 programming languages in use worldwide."];
 const displayedText = ref("");
 let i = 0;
 let j = 0;
