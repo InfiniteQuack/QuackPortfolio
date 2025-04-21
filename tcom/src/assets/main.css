@@ -2,9 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-/*#app {*/
-/*    font-family: 'Roboto';*/
-/*}*/
+#app {
+    background-color: #000814;
+    color: #FFC300;
+}
+
+#Nav {
+    background-color: #003566;
+    color: #FFC300;
+}
 
 
 

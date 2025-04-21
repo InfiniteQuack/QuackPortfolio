@@ -1,6 +1,6 @@
 <template>
-  <div class="Roboto">
-    <Disclosure as="nav" class="bg-gray-800" v-slot="{ open }">
+  <div class="Roboto pb-5">
+    <Disclosure id="Nav" as="nav" class="Nav" v-slot="{ open }">
       <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div class="relative flex h-16 items-center justify-between">
           <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -44,10 +44,10 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 
 const navigation = [
-  { name: 'About', href: '#', current: true },
-  { name: 'Skills / Experience', href: '#', current: false },
-  { name: 'Projects / Accomplishments', href: '#', current: false },
-  { name: 'Contact Info', href: '#', current: false },
+  { name: 'About', href: '#about', current: true },
+  { name: 'Skills / Experience', href: '#skills', current: false },
+  { name: 'Projects / Accomplishments', href: '#projects', current: false },
+  { name: 'Contact Info', href: '#contact', current: false },
 ]
 </script>
 
