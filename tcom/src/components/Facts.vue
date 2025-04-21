@@ -3,7 +3,7 @@
   <div class="justify-center items-center">
     <h1 class="text-4xl Roboto">Fun Facts:</h1>
   </div>
-  <div class="w-2/6 flex items-center justify-start">
+  <div class="w-full flex items-center justify-start">
     <h1 class="text-4xl Roboto">{{ displayedText }}</h1>
   </div>
 
