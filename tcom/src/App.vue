@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import Nav from "@/components/Nav.vue";
+import Main from "@/components/Main.vue";
 </script>
 
 <template>
@@ -8,6 +9,11 @@ import Nav from "@/components/Nav.vue";
   <div class="Roboto text-lg text-gray-800">
     This is Roboto Mono
   </div>
+  <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
+  <Main></Main>
+
 
 </template>
 
