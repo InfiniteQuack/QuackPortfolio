@@ -12,7 +12,7 @@ import Facts from "@/components/Facts.vue";
     <br><br>
     <img src="./assets/goosprof-Photoroom%20(2).png" alt="Profile Picture" width="273" height="281" class=""><br><br>
     <div class="w-2/6">
-      What is up fellow computer enthusiasts, my name is Juno I am soon the be a graduate of
+      What is up fellow computer enthusiasts, my name is Juno and I am soon to be a graduate of
       Sask Polytech's Computer Systems Technology Program. So far, my favourite aspect of
       computer science has been web design. I now have over two years of experience with
       web development and I'm passionate about making designs that are user friendly, intuitive, and have a little silliness.
